@@ -9,6 +9,10 @@ This project is a **Password Strength Checker** that evaluates the security leve
   - 🔴 Weak (Red)
   - 🟠 Moderate (Yellow)
   - 🟢 Strong (Green)
+- **Animated Lock Indicator**
+  - 🔓 Open Lock (Weak Password)
+  - 🟡 Half-Locked (Moderate Password)
+  - 🔒 Fully Locked (Strong Password)
 - **Prevents Passwords Starting with Special Characters**
 - **Minimum 8 Characters Requirement**
 - **Login Button Activation** (Only enabled for strong passwords)
@@ -25,6 +29,7 @@ This project is a **Password Strength Checker** that evaluates the security leve
 2. Observe the **real-time strength indicator**.
 3. Ensure your password meets the **strong criteria** before logging in.
 4. Click the **Login** button (enabled only when password is strong).
+5. Toggle Dark Mode for a customized experience.
 
 ## File Structure
 ```
@@ -36,7 +41,4 @@ password-checker/
 ```
 
 ## Future Enhancements
-- Password visibility toggle
-- Strength meter animation
-- Dark mode support
 - Multi-language support
