@@ -5,10 +5,13 @@
     <title>Password Strength Checker</title>
     <link rel="stylesheet" href="passcode.css">
 </head>
+
 <body>
+    <button id="theme-toggle">🌙</button>
     <div class="container">
         <h2>Password Strength Checker</h2>
         <div class="password-container">
+            <div id="lock-indicator">🔓</div>
             <input type="password" id="password" placeholder="Enter your password" onkeyup="checkPasswordStrength()">
             <div class="strength-meter">
                 <div class="bar" id="weak"></div>
