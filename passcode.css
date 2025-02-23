@@ -87,3 +87,40 @@ input[type="password"]:focus {
     font-weight: bold;
 }
 
+#lock-indicator {
+    font-size: 24px;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.weak {
+    color: red;
+    transform: rotate(0deg);
+}
+.moderate {
+    color: orange;
+    transform: rotate(10deg);
+}
+.strong {
+    color: green;
+    transform: scale(1.2);
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+}
+.dark-mode .container {
+    background-color: #333;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+#theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
